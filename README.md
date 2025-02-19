@@ -1,4 +1,4 @@
-# phi-2-dialogsum
+# Text Summarization with Phi-2-dialogsum
 
 A concise dialogue summarization model based on [Phi-2](https://huggingface.co/microsoft/phi-2).
 
