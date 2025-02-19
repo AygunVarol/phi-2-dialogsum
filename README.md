@@ -1,16 +1,16 @@
 # phi-2-dialogsum
 
-A concise dialogue summarization model based on [Hugging Face Transformers](https://github.com/huggingface/transformers).
+A concise dialogue summarization model based on [Phi-2](https://huggingface.co/microsoft/phi-2).
 
 ## Overview
 
-- **Model**: [AygunVarol/phi-2-dialogsum](https://huggingface.co/AygunVarol/phi-2-dialogsum) on the Hugging Face Hub.  
+- **Model**: [Aygun/phi-2-dialogsum](https://huggingface.co/Aygun/phi-2-dialogsum-finetuned) on the Hugging Face Hub.  
 - **Task**: Summarize multi-turn dialogues into short, coherent paragraphs.
 
 ## Quick Start
 
 ```bash
-git clone https://github.com/AygunVarol/phi-2-dialogsum.git
+git clone https://github.com/Aygun/phi-2-dialogsum.git
 cd phi-2-dialogsum
 pip install -r requirements.txt  # if available
 ```
@@ -20,7 +20,7 @@ pip install -r requirements.txt  # if available
 ```bash
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
-model_name = "AygunVarol/phi-2-dialogsum"
+model_name = "Aygun/phi-2-dialogsum"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
