@@ -12,7 +12,6 @@ A concise dialogue summarization model based on [Phi-2](https://huggingface.co/m
 ```bash
 git clone https://github.com/Aygun/phi-2-dialogsum.git
 cd phi-2-dialogsum
-pip install -r requirements.txt  # if available
 ```
 
 ## Usage
