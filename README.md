@@ -29,5 +29,3 @@ inputs = tokenizer([dialogue], max_length=512, truncation=True, return_tensors="
 summary_ids = model.generate(**inputs, max_length=60, num_beams=4)
 print(tokenizer.decode(summary_ids[0], skip_special_tokens=True))
 ```
-
-![resim](https://github.com/user-attachments/assets/80a4fb8d-1fe9-4327-a844-13c6e321b75c)
